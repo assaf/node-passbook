@@ -11,8 +11,9 @@
     "node-passbook": "./bin/node-passbook"
   },
   "dependencies": {
-    "async":  "0.1.22",
-    "cli":    "0.4.4"
+    "async":    "0.1.22",
+    "cli":      "0.4.4",
+    "archiver": "0.1.0"  
   },
   "devDependencies": {
     "mocha":  "1.6.0"
