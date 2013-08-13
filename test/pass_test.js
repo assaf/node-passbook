@@ -180,13 +180,6 @@ describe("Pass", function() {
       });
     });
 
-    it("should contain a signature", function(done) {
-      execFile("signpass", ["-v", "/tmp/pass.pkpass"], function(error, stdout) {
-        assert(/\*\*\* SUCCEEDED \*\*\*/.test(stdout), stdout);
-        done();
-      });
-    });
-
     it("should contain the icon", function(done) {
       unzip("/tmp/pass.pkpass", "icon.png", function(error, buffer) {
         assert.equal(Crypto.createHash("sha1").update(buffer).digest("hex"),
