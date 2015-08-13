@@ -1,3 +1,21 @@
+## 2.1.1  April 16, 2015
+
+Update package.json with async dependency (tomasdev)
+
+Emit error if it failed to sign the zip with manifest file (tomasdev)
+
+
+## 2.1.0  March 2, 2015
+
+Add support for Node.js 0.12 and io.js 1.4
+
+Fix failing image tests on Node.js 0.12 and io.js 1.4
+
+Fix failing signature check on Node.js 0.12 and io.js 1.4
+
+Remove unused async dependency
+
+
 ## 2.0.1  November 14, 2012
 
 Fix addImage not working with buffers.
