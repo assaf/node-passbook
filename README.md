@@ -97,7 +97,7 @@ will do the logical thing.  For example, to add a primary field:
 
 ```js
 pass.primaryFields.add("date", "Date", "Nov 1");
-pass.primaryFields.add({ key: "time", label: "Time", value: "10:00AM");
+pass.primaryFields.add({ key: "time", label: "Time", value: "10:00AM"});
 ```
 
 You can also call `add` with an array of triplets or array of objects.
