@@ -6,6 +6,12 @@
     "name": "Assaf Arkin",
     "email": "assaf@labnotes.org"
   },
+  "contributors": [
+    {
+      "name": "Sergey Pronin",
+      "email" : "sergey@pronin.me"
+    }
+  ],
   "main": "./lib/index.js",
   "bin": {
     "node-passbook": "./bin/node-passbook"
