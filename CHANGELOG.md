@@ -1,3 +1,22 @@
+## 2.2.0  November 25, 2015
+
+Requires Node 6.x or later, due to changes to the `Buffer` class.
+
+Unzip Remote Images If Content-Encoding is "gzip" #37 (philipheinser)
+
+Support iBeacons #43 (fabianfett)
+
+Add extra fields for companion app info #55 (thedumbterminal)
+
+Listen for finish event on fs #56 (arturojain)
+
+Follow redirects for HTTPS and HTTP requests #57 (augustorsouza)
+
+Properly parse output of openssl on Windows #64 (akadko)
+
+Use the target of the pipe method also as its return value #67 (atd-schubert)
+
+
 ## 2.1.1  April 16, 2015
 
 Update package.json with async dependency (tomasdev)
