@@ -1,4 +1,5 @@
-{ "name": "passbook",
+{
+  "name": "passbook",
   "description": "iOS Passbook for the Node hacker",
   "homepage": "https://github.com/assaf/node-passbook",
   "version": "2.1.2",
@@ -11,12 +12,12 @@
     "node-passbook": "./bin/node-passbook"
   },
   "dependencies": {
-    "async": "^0.9.0",
-    "cli":    "0.6.5",
+    "async": "^2.6.1",
+    "cli": "^1.0.1",
     "follow-redirects": "^1.2.3"
   },
   "devDependencies": {
-    "mocha":  "2.1.0"
+    "mocha": "^5.2.0"
   },
   "scripts": {
     "test": "mocha"
@@ -35,7 +36,8 @@
     "url": "http://github.com/assaf/node-passbook/issues"
   },
   "licenses": [
-    { "type": "MIT",
+    {
+      "type": "MIT",
       "url": "http://github.com/assaf/node-passbook/blob/master/MIT-LICENSE"
     }
   ]

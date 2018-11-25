@@ -247,7 +247,7 @@ function unzip(zipFile, filename, callback) {
     if (error) {
       callback(new Error(stdout));
     } else {
-      callback(null, new Buffer(stdout, "binary"));
+      callback(null, Buffer.from(stdout, "binary"));
     }
   });
 }
