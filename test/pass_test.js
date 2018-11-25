@@ -107,6 +107,24 @@ describe("Pass", function() {
     });
   });
 
+  describe("with companion app keys", function() {
+
+    before(function() {
+      var fields = cloneExcept(this.fields, "not_used");
+      fields.appLaunchURL = "some_app_launch_url";
+      fields.associatedStoreIdentifiers = [123, 456];
+      this.pass = this.template.createPass(fields);
+    });
+
+    it("includes the app launch URL", function() {
+      assert.equal(this.pass.fields.appLaunchURL, "some_app_launch_url");
+    });
+
+    it("includes the associated store identifiers", function() {
+      assert.deepEqual(this.pass.fields.associatedStoreIdentifiers, [123, 456]);
+    });
+
+  });
 
   describe("generated", function() {
     before(function() {
