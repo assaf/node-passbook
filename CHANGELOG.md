@@ -1,3 +1,9 @@
+## 2.3.0  September 9, 2019
+
+Fixed SHA signature #68/#70 (vodaben)
+
+
+
 ## 2.2.0  November 25, 2015
 
 Requires Node 6.x or later, due to changes to the `Buffer` class.
